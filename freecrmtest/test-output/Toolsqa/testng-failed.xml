@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Toolsqa]" parallel="tests">
+  <test thread-count="5" name="Firifox(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="toolsQa.ToolsQa">
+        <methods>
+          <include name="fillup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- toolsQa.ToolsQa -->
+    </classes>
+  </test> <!-- Firifox(failed) -->
+</suite> <!-- Failed suite [Toolsqa] -->

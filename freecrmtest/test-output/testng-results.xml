@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42579" started-at="2021-03-08T11:14:15 IST" finished-at="2021-03-08T11:14:58 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42579" started-at="2021-03-08T11:14:15 IST" finished-at="2021-03-08T11:14:58 IST">
+      <class name="testcase.HomepageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcase.HomepageTest@17d677df]" name="setUp" is-config="true" duration-ms="15295" started-at="2021-03-08T11:14:15 IST" finished-at="2021-03-08T11:14:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createaccountTest()[pri:0, instance:testcase.HomepageTest@17d677df]" name="createaccountTest" duration-ms="14894" started-at="2021-03-08T11:14:30 IST" finished-at="2021-03-08T11:14:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createaccountTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcase.HomepageTest@17d677df]" name="setUp" is-config="true" duration-ms="6831" started-at="2021-03-08T11:14:45 IST" finished-at="2021-03-08T11:14:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="gmailclickTest()[pri:0, instance:testcase.HomepageTest@17d677df]" name="gmailclickTest" duration-ms="5421" started-at="2021-03-08T11:14:52 IST" finished-at="2021-03-08T11:14:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmailclickTest -->
+      </class> <!-- testcase.HomepageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

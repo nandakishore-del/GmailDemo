@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Toolsqa" parallel="tests">
+  <test name="chrome">
+  
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="toolsQa.ToolsQa"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Firifox">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="toolsQa.ToolsQa"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
